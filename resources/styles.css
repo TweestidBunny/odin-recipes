@@ -1,8 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #c0c0c0;
+  background-color: #023047;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+  margin: 0;
 }
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.link-container {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 20%;
+  border: 1px solid #fb5607;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background-color: #fb5607;
+}
+
+.link-container img {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.link-container img:hover {
+  /* margin: -1rem -1rem 0; */
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+/* .link-container:hover,
+.link-container:hover a {
+  border-color: #f00;
+} */
 
 h1 {
   font-size: 3.5rem;
@@ -13,12 +51,15 @@ a {
   display: inline-block;
   margin-top: 1.5rem;
   font-size: 1.2rem;
-  color: #00f;
+  color: #fff;
 }
 
+.link-container:hover,
+.link-container:hover a,
 a:hover {
   color: #f00;
   text-decoration: none;
+  border-color: #f00;
 }
 
 /* recipe ingredients / steps */
