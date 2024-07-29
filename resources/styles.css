@@ -1,0 +1,48 @@
+body {
+  background-color: #c0c0c0;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #c90;
+}
+
+a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #00f;
+}
+
+a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+/* recipe ingredients / steps */
+
+li {
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #fff;
+  padding: 1.2rem;
+  width: 50%;
+  margin: 1.1rem auto;
+  list-style: none;
+}
+
+li:hover {
+  background-color: #00f;
+  color: #fff;
+}
+
+h2 {
+  color: #c90;
+  font-size: 2.3rem;
+}
+
+p {
+  color: #003566;
+  font-size: 1.2rem;
+}
