@@ -74,6 +74,8 @@ p {
 
 .card {
   background-color: #415a77;
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 li {
