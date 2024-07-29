@@ -57,6 +57,13 @@ a:hover {
   border-color: #f00;
 }
 
+/* recipe description */
+
+p {
+  color: #e0e1dd;
+  font-size: 1.2rem;
+}
+
 /* recipe ingredients / steps */
 
 li {
@@ -76,9 +83,4 @@ li:hover {
 h2 {
   color: #c90;
   font-size: 2.3rem;
-}
-
-p {
-  color: #003566;
-  font-size: 1.2rem;
 }
