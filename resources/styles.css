@@ -79,11 +79,10 @@ p {
 li {
   color: #edf2f4;
   margin-top: 1.5rem;
-  border-bottom: 1px solid #fff;
   padding: 1.2rem;
   width: 50%;
   margin: 1.1rem auto;
-  list-style: none;
+  list-style: "-";
 }
 
 li:hover {
