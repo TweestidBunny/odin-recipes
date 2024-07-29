@@ -37,11 +37,6 @@ body {
   margin-right: -1rem;
 }
 
-/* .link-container:hover,
-.link-container:hover a {
-  border-color: #f00;
-} */
-
 h1 {
   font-size: 3.5rem;
   color: #c90;
@@ -51,14 +46,15 @@ a {
   display: inline-block;
   margin-top: 1.5rem;
   font-size: 1.2rem;
-  color: #fff;
+  color: #023047;
+  text-decoration: none;
 }
 
 .link-container:hover,
 .link-container:hover a,
 a:hover {
-  color: #f00;
-  text-decoration: none;
+  background-color: #023047;
+  color: #fb5607;
   border-color: #f00;
 }
 
