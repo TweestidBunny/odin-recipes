@@ -72,6 +72,12 @@ p {
 
 /* recipe cards */
 
+.steps {
+  li {
+    line-height: 1.5rem;
+  }
+}
+
 .card {
   background-color: #415a77;
   padding: 1.5rem;
